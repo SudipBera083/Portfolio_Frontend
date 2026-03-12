@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-
+import  data from '../data/data'
 export default function ChatBot() {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -42,7 +42,7 @@ export default function ChatBot() {
 
         try {
 
-            const res = await fetch("http://127.0.0.1:8000/api/chat/chat/", {
+            const res = await fetch(`${data.Base_URL}/api/chat/chat/`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
