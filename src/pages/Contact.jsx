@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
+import config from "../data/data"
 
 const contactInfo = [
 {
@@ -61,7 +62,7 @@ setLoading(true)
 try{
 
 const res = await fetch(
-"http://127.0.0.1:8000/api/contact/send-message/",
+`${config.Base_URL}/api/contact/send-message/`,
 {
 method:"POST",
 headers:{
@@ -132,7 +133,7 @@ Together
 Have a project idea or collaboration opportunity?
 Let's connect and create something impactful.
 </p>
-
+<br />
 </motion.div>
 
 
