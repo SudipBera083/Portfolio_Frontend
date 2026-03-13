@@ -67,7 +67,7 @@ className="text-5xl sm:text-6xl md:text-7xl font-black leading-tight mb-6"
 style={{fontFamily:"var(--font-display)"}}
 >
 
-Hi, I'm
+{/* Hi, I'm */}
 
 <span className="block text-gradient-hero text-glow">
 Sudip Bera
