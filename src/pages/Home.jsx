@@ -18,11 +18,11 @@ const roles = [
 ]
 
 const projectGrowth = [
-{year:"2021",projects:5},
-{year:"2022",projects:12},
-{year:"2023",projects:18},
-{year:"2024",projects:26},
-{year:"2025",projects:30}
+{year:"2021",projects:1},
+{year:"2022",projects:1},
+{year:"2023",projects:2},
+{year:"2024",projects:1},
+{year:"2025",projects:1}
 ]
 
 export default function Home(){
